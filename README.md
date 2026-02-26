@@ -44,6 +44,3 @@ Do the following:
 - Once your edits are complete, navigate back to the Report screen and click "Apply changes" from the yellow bar.
 
 ![img4](images/img4.png)
-
-
-
