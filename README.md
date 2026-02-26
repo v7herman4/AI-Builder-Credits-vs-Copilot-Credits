@@ -3,6 +3,15 @@ Analysis of AI Builder Credits vs Copilot Credits
 
 This solution contains a Power BI report template that you can connect to ONE Power Platform environment to do analysis of AI Builder Credits and Copilot Credits consumed by resource. Resources could be Agents or Power Automate Flows.
 
+## Credit
+
+Power BI template 
+
+All credit goes to: 
+
+Lori Gowin [lilmrsgowin](https://github.com/lilmrsgowin)
+
+
 ## Requirements
 1. Power BI desktop
 2. At least the System Customizer security role for the respective environment
@@ -38,10 +47,3 @@ Do the following:
 ![img4](images/img4.png)
 
 
-## Credit
-
-Power BI template 
-
-All credit goes to: 
-
-Lori Gowin [lilmrsgowin](https://github.com/lilmrsgowin)
