@@ -25,7 +25,7 @@ Do the following:
 - close the "Transform data" window. 
 - Navigate to the table view and click "Manage relationships".
 
-![img3](images/img3.png)
+![img2](images/img2.png)
 
 - Ensure these AND only these relationships exist. 
 - Remove, add or edit any relationship as needed. 
