@@ -43,4 +43,14 @@ Do the following:
 
 - Once your edits are complete, navigate back to the Report screen and click "Apply changes" from the yellow bar.
 
+
+The resulting report should look similar to the below image: 
+
 ![img4](images/img4.png)
+
+
+## How To Use The Report
+All tables are related. Click on any record to filter to other tables accordingly.
+
+If convenient you may export the data from any of the tables to a CSV file. Click on the table then click the three dots in the top right and select "Export data".
+
