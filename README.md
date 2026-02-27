@@ -1,6 +1,13 @@
 # AI-Builder-Credits-vs-Copilot-Credits
 Analysis of AI Builder Credits vs Copilot Credits
 
+- [AI-Builder-Credits-vs-Copilot-Credits](#ai-builder-credits-vs-copilot-credits)
+  - [Credit](#credit)
+  - [Requirements](#requirements)
+  - [Install Instructions](#install-instructions)
+  - [How To Use The Report](#how-to-use-the-report)
+
+
 This solution contains a Power BI report template that you can connect to ONE Power Platform environment to do analysis of AI Builder Credits and Copilot Credits consumed by resource. Resources could be Agents or Power Automate Flows.
 
 ## Credit
