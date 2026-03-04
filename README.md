@@ -6,6 +6,13 @@ Analysis of AI Builder Credits vs Copilot Credits
   - [Requirements](#requirements)
   - [Install Instructions](#install-instructions)
   - [How To Use The Report](#how-to-use-the-report)
+    - [Explanation of the Model Consumption table](#explanation-of-the-model-consumption-table)
+      - [msdyn\_name (AIModel)](#msdyn_name-aimodel)
+      - [Year](#year)
+      - [Month](#month)
+      - [Total Copilot Credits](#total-copilot-credits)
+      - [Total AI Builder Credits](#total-ai-builder-credits)
+      - [AIBuilder2CopilotCredit](#aibuilder2copilotcredit)
 
 
 This solution contains a Power BI report template that you can connect to ONE Power Platform environment to do analysis of AI Builder Credits and Copilot Credits consumed by resource. Resources could be Agents or Power Automate Flows.
@@ -57,11 +64,19 @@ The resulting report should look similar to the below image:
 
 
 ## How To Use The Report
-All tables are related. Click on any record to filter to other tables accordingly.
+Model Consumption only shows those models that are actively consuming credits (AI Builder or Copilot Credits). AIBuilder2CopilotCredit column uses the public rate conversion table to forecast Copilot Credits required.
+
+Workflows shows all workflows that have AI models in their actions. This table is filtered when a specific model is selected from the Model Consumption table to only show those workflows that contain the model. 
+
+Agents shows all agents with AI prompts/models in them. This table is filtered when a specific model is selected from the model consumption table to only show those workflows that contain the model. 
+
+Models table shows all models by name that are in the environment. 
 
 If convenient you may export the data from any of the tables to a CSV file. Click on the table then click the three dots in the top right and select "Export data".
 
-### Explanation of Model Consumption table
+This information is also available on the report tab "About this report".
+
+### Explanation of the Model Consumption table
 #### msdyn_name (AIModel)
 
 This is the name of the Model instance. If its a prebuilt Model the name will be set by AI Hub. If its a trained model or custom prompt the name will be the custom name the author provider. 
