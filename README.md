@@ -2,7 +2,7 @@
 Analysis of AI Builder Credits vs Copilot Credits
 
 - [AI-Builder-Credits-vs-Copilot-Credits](#ai-builder-credits-vs-copilot-credits)
-  - [Credit](#credit)
+  - [Credits](#credits)
   - [Requirements](#requirements)
   - [Install Instructions](#install-instructions)
   - [How To Use The Report](#how-to-use-the-report)
@@ -10,7 +10,7 @@ Analysis of AI Builder Credits vs Copilot Credits
 
 This solution contains a Power BI report template that you can connect to ONE Power Platform environment to do analysis of AI Builder Credits and Copilot Credits consumed by resource. Resources could be Agents or Power Automate Flows.
 
-## Credit
+## Credits
 
 Power BI template 
 
@@ -60,4 +60,28 @@ The resulting report should look similar to the below image:
 All tables are related. Click on any record to filter to other tables accordingly.
 
 If convenient you may export the data from any of the tables to a CSV file. Click on the table then click the three dots in the top right and select "Export data".
+
+### Explanation of Model Consumption table
+#### msdyn_name (AIModel)
+
+This is the name of the Model instance. If its a prebuilt Model the name will be set by AI Hub. If its a trained model or custom prompt the name will be the custom name the author provider. 
+
+#### Year
+The year in which this consumption metric is showing.
+
+#### Month
+The month in which this consumption metric is showing.
+
+#### Total Copilot Credits
+The actual amount of Copilot Credits consumed by this model for the time interval shown. This has no relation to the "Total AI Builder Credits" column. Resources can consume both Copilot Credits and AI Builder credits within a given period.
+
+#### Total AI Builder Credits
+The actual amount of AI Builder Credits consumed by this model for the time interval shown. This has no relation to the "Total Copilot Credits" column. Resources can consume both Copilot Credits and AI Builder credits within a given period.
+
+#### AIBuilder2CopilotCredit
+The estimate amount of Copilot Credits that would have been consumed given the actual "Total AI Builder Credits" consumed. The models used are compared to this rate table: https://learn.microsoft.com/en-us/ai-builder/administer-licensing#aibuildercapabilityrate-table
+
+Please note that not all rates are available in this conversion table. Any record with a blank value in the "AIBuilder2CopilotCredit" involves a column that has no publicly known conversion.
+
+![img5](images/img5.png)
 
