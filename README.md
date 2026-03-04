@@ -21,8 +21,6 @@ This solution contains a Power BI report template that you can connect to ONE Po
 
 Power BI template 
 
-All credit goes to: 
-
 Lori Gowin [lilmrsgowin](https://github.com/lilmrsgowin)
 
 ## Requirements
