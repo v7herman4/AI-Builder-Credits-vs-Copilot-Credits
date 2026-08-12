@@ -15,7 +15,7 @@ Analysis of AI Builder Credits vs Copilot Credits
       - [AIBuilder2CopilotCredit](#aibuilder2copilotcredit)
 
 
-This solution contains a Power BI report template that you can connect to ONE Power Platform environment to do analysis of AI Builder Credits and Copilot Credits consumed by a resources. 
+This solution contains a Power BI report template that you can connect to ONE Power Platform environment to do analysis of AI Builder Credits and Copilot Credits consumed by a resource. 
 
 ## Credits
 
@@ -93,6 +93,12 @@ The actual amount of AI Builder Credits consumed by this model for the time inte
 
 #### AIBuilder2CopilotCredit
 The estimate amount of Copilot Credits that would have been consumed given the actual "Total AI Builder Credits" consumed. The models used are compared to this rate table: https://learn.microsoft.com/en-us/ai-builder/administer-licensing#aibuildercapabilityrate-table
+
+The conversion rate used for the calculated column is as below.
+For GptPowerPrompt the highest rate was used in order to accomodate all scenarios.
+
+![img6](images/img6.png)
+
 
 Please note that not all rates are available in this conversion table. Any record with a blank value in the "AIBuilder2CopilotCredit" involves a column that has no publicly known conversion.
 
