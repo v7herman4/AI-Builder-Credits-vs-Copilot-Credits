@@ -13,6 +13,7 @@ Analysis of AI Builder Credits vs Copilot Credits
       - [Total Copilot Credits](#total-copilot-credits)
       - [Total AI Builder Credits](#total-ai-builder-credits)
       - [AIBuilder2CopilotCredit](#aibuilder2copilotcredit)
+  - [Additional Reporting](#additional-reporting)
 
 
 This solution contains a Power BI report template that you can connect to ONE Power Platform environment to do analysis of AI Builder Credits and Copilot Credits consumed by a resource. 
@@ -22,6 +23,8 @@ This solution contains a Power BI report template that you can connect to ONE Po
 Power BI template 
 
 Lori Gowin [lilmrsgowin](https://github.com/lilmrsgowin)
+
+Ryan Williams [rywilli_microsoft](https://github.com/rywilli_microsoft)
 
 ## Requirements
 1. Power BI desktop
