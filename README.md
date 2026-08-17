@@ -29,7 +29,7 @@ Lori Gowin [lilmrsgowin](https://github.com/lilmrsgowin)
 3. A Power Platform user license assigned (Power App Premium, Power Automate Premium)
 
 ## Install Instructions
-1. Download the "AI.Usage.pbit" file from the latest [Release](https://github.com/v7herman4/AI-Builder-Credits-vs-Copilot-Credits/releases) to a folder on your machine.
+1. Download the "AI Usage.pbit" file from the latest [Release](https://github.com/v7herman4/AI-Builder-Credits-vs-Copilot-Credits/releases) to a folder on your machine.
 2. On your local machine, open up the Power BI desktop application.
 3. Log in to Power BI desktop with the same credentials used to access your Power Platform Environment.
 4. Open up the .pbit file with Power BI desktop app.
@@ -104,3 +104,12 @@ Please note that not all rates are available in this conversion table. Any recor
 
 ![img5](images/img5.png)
 
+## Additional Reporting
+An additional report can be downloaded.
+
+You can download the "AI Usage v2.pbit" file from the latest [Release](https://github.com/v7herman4/AI-Builder-Credits-vs-Copilot-Credits/releases) to a folder on your machine.
+
+ It includes the following changes:
+- Added some measures to calculate the peak month (past 24 month), the number of ai builder credits consumed that month, and the copilot credit equivalent. Is is the most actionable number out of this whole report, answering the question "how many copilot credits should i buy?". For anyone who is using P3 licensing, there are two measures for total usage in the last 12 months and copilot credit equivalent.
+- Changed the table to a matrix grouped by month & year, similar to the above, since we are on a monthly billing model.
+-C hanged the 'fallback modifier' from 0 to .25, which is a blended rate of all published rates. It is documented in the 'About' tab.
